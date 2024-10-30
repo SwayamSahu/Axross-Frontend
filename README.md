@@ -127,3 +127,9 @@ Added SheetHeader and SheetTitle components
 Added a proper title "Navigation Menu" to the Sheet component
 Improved the accessibility of the mobile navigation menu
 The development server is already running and will automatically reflect these changes.
+
+https://static.wixstatic.com/media/621247_8134cc68d2604419ba6301f7b6854084~mv2.png/v1/fill/w_901,h_751,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/AI%20Model%20(11).png
+
+https://static.wixstatic.com/media/621247_6aac41d8cff3498097382c3b50b031f7~mv2.png/v1/fill/w_430,h_133,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Yellow%20and%20Black%20Modern%20Aesthetic%20Relaxing%20Yoga%20Therapy%20Youtube%20Intro%20Video.png
+
+
