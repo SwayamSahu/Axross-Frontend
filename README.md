@@ -133,3 +133,112 @@ https://static.wixstatic.com/media/621247_8134cc68d2604419ba6301f7b6854084~mv2.p
 https://static.wixstatic.com/media/621247_6aac41d8cff3498097382c3b50b031f7~mv2.png/v1/fill/w_430,h_133,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Yellow%20and%20Black%20Modern%20Aesthetic%20Relaxing%20Yoga%20Therapy%20Youtube%20Intro%20Video.png
 
 
+================================================================================
+
+I'll break down the codebase and explain each component's role and purpose:
+
+Root Layout and Configuration
+app/layout.tsx: The root layout component that:
+
+Sets up the base HTML structure
+Configures the font (Inter)
+Implements theme provider for dark/light mode
+Sets metadata for SEO
+app/page.tsx: Main page component that:
+
+Assembles all major sections
+Handles the overall page structure
+Imports and arranges components in order
+Theme Management
+components/ThemeProvider.tsx:
+Wraps the application with theme context
+Enables dark/light mode switching
+Handles system theme preferences
+Navigation Components
+components/Navbar.tsx:
+Fixed position header
+Responsive design with mobile menu
+Logo display
+Navigation links
+Theme toggle button
+Mobile hamburger menu using Sheet component
+Main Content Sections
+components/Hero.tsx:
+
+Landing section
+Main headline
+Value proposition
+Call-to-action button
+components/Benefits.tsx:
+
+Grid layout of benefits
+Responsive design
+Hover effects
+Key features presentation
+components/Solution.tsx:
+
+Product visualization
+Large image display
+Description of solution
+Centered layout
+Contact Section
+components/ContactForm.tsx:
+Form validation using Zod
+Form handling with react-hook-form
+Input fields for user data
+Submission handling
+Error messages
+Responsive design
+Footer Component
+components/Footer.tsx:
+Company information
+Navigation links
+Contact details
+Social media links
+Grid layout for responsive design
+UI Components
+The project uses shadcn/ui components (not shown in the files but imported):
+
+Button
+Form components
+Sheet (for mobile menu)
+Input fields
+Various other UI elements
+Styling
+Uses Tailwind CSS for:
+Responsive design
+Dark/light mode
+Custom colors
+Layout
+Spacing
+Typography
+Key Features:
+
+Fully responsive design
+Dark/light mode support
+Form validation
+Accessible components
+SEO optimization
+Modern UI components
+Modular architecture
+Type safety with TypeScript
+The architecture follows best practices:
+
+Component-based structure
+Separation of concerns
+Reusable components
+Client/server component separation
+Type safety
+Accessibility standards
+Modern React patterns
+Each component is designed to be:
+
+Self-contained
+Reusable
+Maintainable
+Accessible
+Performance-optimized
+The development server is running and will automatically reflect any changes made to these files.
+
+
+=============================================
